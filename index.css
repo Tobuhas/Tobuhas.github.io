@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  
+}
+
+
+
+#wrapper{
+  justify-content: center
+}
+
+#parallax{
+  background-image: url("images/canny.png");
+  min-height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700&display=swap');
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+}
+
+h1{
+    text-align: center;
+    padding-top: 2em;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} 
+
+li:hover{
+    background-color: black;
+}
+
+#flex2{
+  display: flex;
+ 
+}
+
+#image{
+  background-image: url("images/istockphoto-513727803-612x612.jpg");
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+
+
+
+#grid{
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: hidden;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+
+
+#text{
+  background-color: rgb(243, 238, 238);
+  padding: 10px;
+  border: 2px black;
+  border-radius: 5px;
+}
+
+
+#flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3em;
+}
+
+#snow{
+  box-shadow: 2px 2px 2px black;
+}
+
+h2{
+  text-align: center;
+  padding: 20px;
+}
+
+#kontaktinfo {
+  line-height: 2em;
+  padding-left: 1em;
+}
+
+#flexbox div{
+  background-color: rgb(243, 238, 238);
+  width: 70%;
+  margin: 10px;
+  text-align: center;
+  line-height: 50vh;
+  font-size: 30px;
+}
+
+.active {
+  border: 1px solid #eee;
+}
+  
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+ 
+
+  #grid{
+    flex-direction: column-reverse;
+  }
+
+  #flexbox{
+    flex-direction: column;
+  }
+}
+
+#Contact{
+  line-height: 2em;
+  padding-left: 1em;
+}
+
+
