@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+
+}
+table{
+    border-style: ridge;
+    border-collapse: separate;
+    
+    border-width: 5px;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+}
+tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+td{
+   
+    width: 10em;
+    max-width: 10em;
+    }
+    
+.wrapper{
+    margin: auto;
+    width: 70%;
+}
+.nerr{
+    text-align: center;
+}

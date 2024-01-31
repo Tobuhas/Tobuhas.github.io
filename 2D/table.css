@@ -1,0 +1,45 @@
+table{
+    border-style: ridge;
+    border-collapse: separate;
+    text-align: center;
+    border-width: 5px;
+
+}
+
+tbody tr:nth-child(odd){
+    background-color: red;
+}
+thead{
+    background-color: black;
+    color: white;
+}
+tr:hover{
+    font-style: oblique;
+}
+.poison:hover{
+    background-color: blueviolet;
+}
+.Shadow:hover{
+    background-color: darkmagenta;
+}
+.dragon:hover{
+    background-color: teal;
+}
+.bug:hover{
+    background-color: lightgreen;
+}
+.ghost:hover{
+    background-color: magenta;
+}
+.normal:hover{
+    background-color: gray;
+}
+
+td{
+    padding: 1em;
+    width: 7em;
+    max-width: 7em;
+}
+li{
+    font-size: larger;
+}

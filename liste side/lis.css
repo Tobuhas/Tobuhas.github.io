@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+    
+}
+
+
+h1{
+    text-align: center;
+  
+}
+
+
+
+button { 
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #wrapper{
+        float: none;
+        width: 100%;
+    }
+  }
+
+
+#sortButtons {
+    margin-top: 10px;
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+}
+
+#wrapper{
+    display: flexbox;
+    flex-direction: row;
+}
+
+.nyttObjekt {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    overflow: hidden;
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flexbox;
+    float: left;
+}
+
+.nyttObjekt:hover {
+    transform: scale(1.02);
+}
+
+.greier {
+    margin: 0;
+    font-size: 14px;
+    
+}
+
+.titler {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 24px;
+
+}

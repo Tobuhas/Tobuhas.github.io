@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="pokmon.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Battle System</h1>
+      <div class="buttons">
+        <button id="switch1-button" class="fire">Switch to Fire</button>
+        <button id="switch2-button" class="water">Switch to Water</button>
+        <button id="switch3-button" class="grass">Switch to Grass</button>
+        <button id="attack-button" class="attack">Attack</button>
+      </div>
+      <div class="battle-info">
+        <p>Player Health: <span id="player-health">1000</span></p>
+        <p>Enemy Health: <span id="enemy-health">1000</span></p>
+        <p>Damage Dealt: <span id="damage-dealt">0</span></p>
+        <p id="enemy-type">Enemy Type: Water</p>
+      </div>
+      <div class="result-message">
+        <p id="result"></p>
+      </div>
+    </div>
+    <div id="pokemonimgs">
+      <div id="friendimg"></div>
+      <div id="enemyimg"></div>
+    </div>
+    <script src="pokmon.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lis.css">
+</head>
+<body>
+ <div id="wrapper">
+    <h1>katt!!!</h1>
+
+    <label for="dato">Dato:</label>
+    <input type="date" id="dato">
+
+    <label for="tittel">tittel</label>
+    <input type="text" id="tittel">
+
+    <label for="kategori">katt</label>
+    <select id="kategori">
+        <option value="" selected disabled></option>
+        <option value="bleh">bleh</option>
+        <option value="svartHvit">svart og hvit</option>
+        <option value="uncannyStare">uncanny stare</option>
+        <option value="cannyStare">canny stare</option>
+        <option value="pickle">pickle</option>
+        <option value="skinWalker">skinwalker</option>
+    </select>
+
+    <label for="textColor">tekst farge:</label>
+    <select  id="textColor">
+        <option value="" selected disabled></option>
+        <option value="hvit">hvit</option>
+        <option value="svart">svart</option>
+    </select>
+   
+
+    <label for="innhold">innhold:</label>
+    <input type="text" id="innhold">
+
+    <button id="buttonforadd">create list!</button>
+
+    <div id="sortButtons">
+    <button id="sortName">Sort by title</button>
+    <button id="sortDate">Sort by date</button>
+    <button id="sortCategory">Sort by category</button>
+    </div>
+</div>
+
+
+
+
+    
+    
+</body>
+<script src="lis.js"></script>
+</html>

@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.fire {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.water {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.grass {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.attack {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.battle-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.result-message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #e91e63;
+}
+
+#pokemonimgs {
+  display: grid;
+  height: 50vh;
+  width: 30vw; 
+  gap: 0;
+  margin: auto;
+  grid-template-columns: (2, 0);
+  grid-template-rows: (2, 0);
+  grid-template-areas:
+    ". a"
+    "b .";
+}
+
+#enemyimg {
+  grid-area: a;
+  background-size: 100% 100%;
+  position: relative;
+  left: 40%;
+  aspect-ratio: 1;
+  height: 60%;
+  padding: 0;
+  margin: 0;
+    
+}
+
+#friendimg {
+  grid-area: b;
+  background-size: 100% 100%;
+  transform: scaleX(-1);
+  position: relative;
+  left: 10%;
+  bottom: 40%;
+  aspect-ratio: 1;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
