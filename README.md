@@ -12,6 +12,7 @@ mountain with snow: istockphoto.com
 
 About me er på norsk :D oopsie
 
+Prosjektene som er linket er tidligere prosjekter.
                              
                                                                                                        
                                                                   @%#*#%@                                     
